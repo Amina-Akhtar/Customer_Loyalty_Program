@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IntroPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Layers_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_cakes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cupcake_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sundae_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="brownie_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin_SignIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin_SignUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin_Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Update_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_cupcake_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_cakes_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_sundae_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_brownie_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWishlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loyalty_Rewards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rewards_200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rewards_400.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rewards_600.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rewards_800.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Redeem_EndForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndForm_Negative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceedToCheckout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntroPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SignIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layers_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_cakes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SignUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cupcake_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sundae_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="brownie_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin_SignIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin_SignUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin_Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Update_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_cupcake_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_cakes_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_sundae_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_brownie_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWishlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loyalty_Rewards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rewards_200.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rewards_400.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rewards_600.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rewards_800.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Redeem_EndForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndForm_Negative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceedToCheckout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

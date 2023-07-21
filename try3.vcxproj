@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D547B9F2-B4A6-4EAE-A24C-DC0F298F34E8}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>try3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="admin_brownie_menu.cpp" />
+    <ClCompile Include="admin_cakes_menu.cpp" />
+    <ClCompile Include="admin_cupcake_menu.cpp" />
+    <ClCompile Include="Admin_Menu.cpp" />
+    <ClCompile Include="Admin_SignIn.cpp" />
+    <ClCompile Include="Admin_SignUp.cpp" />
+    <ClCompile Include="admin_statistics.cpp" />
+    <ClCompile Include="admin_sundae_menu.cpp" />
+    <ClCompile Include="brownie_menu.cpp" />
+    <ClCompile Include="CheckOut.cpp" />
+    <ClCompile Include="cupcake_menu.cpp" />
+    <ClCompile Include="EndForm_Negative.cpp" />
+    <ClCompile Include="IntroPage.cpp" />
+    <ClCompile Include="Layers_menu.cpp" />
+    <ClCompile Include="Loyalty_Rewards.cpp" />
+    <ClCompile Include="menu_cakes.cpp" />
+    <ClCompile Include="MyAccount.cpp" />
+    <ClCompile Include="MyCart.cpp" />
+    <ClCompile Include="MyWishlist.cpp" />
+    <ClCompile Include="ProceedToCheckout.cpp" />
+    <ClCompile Include="Redeem_EndForm.cpp" />
+    <ClCompile Include="Rewards_200.cpp" />
+    <ClCompile Include="Rewards_400.cpp" />
+    <ClCompile Include="Rewards_600.cpp" />
+    <ClCompile Include="Rewards_800.cpp" />
+    <ClCompile Include="SignIn.cpp" />
+    <ClCompile Include="SignUp.cpp" />
+    <ClCompile Include="sundae_menu.cpp" />
+    <ClCompile Include="Update_menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="admin_brownie_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="admin_cakes_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="admin_cupcake_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Admin_Menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Admin_SignIn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Admin_SignUp.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="admin_statistics.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="admin_sundae_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="brownie_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CheckOut.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="cupcake_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EndForm_Negative.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="IntroPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Layers_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Loyalty_Rewards.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="menu_cakes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyAccount.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyCart.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyWishlist.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProceedToCheckout.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Redeem_EndForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rewards_200.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rewards_400.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rewards_600.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rewards_800.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SignIn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SignUp.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="sundae_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Update_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="admin_brownie_menu.resx">
+      <DependentUpon>admin_brownie_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_cakes_menu.resx">
+      <DependentUpon>admin_cakes_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_cupcake_menu.resx">
+      <DependentUpon>admin_cupcake_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Menu.resx">
+      <DependentUpon>Admin_Menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_SignIn.resx">
+      <DependentUpon>Admin_SignIn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_SignUp.resx">
+      <DependentUpon>Admin_SignUp.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_statistics.resx">
+      <DependentUpon>admin_statistics.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_sundae_menu.resx">
+      <DependentUpon>admin_sundae_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="brownie_menu.resx">
+      <DependentUpon>brownie_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut.resx">
+      <DependentUpon>CheckOut.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cupcake_menu.resx">
+      <DependentUpon>cupcake_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndForm_Negative.resx">
+      <DependentUpon>EndForm_Negative.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroPage.resx">
+      <DependentUpon>IntroPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layers_menu.resx">
+      <DependentUpon>Layers_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loyalty_Rewards.resx">
+      <DependentUpon>Loyalty_Rewards.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_cakes.resx">
+      <DependentUpon>menu_cakes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyAccount.resx">
+      <DependentUpon>MyAccount.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyCart.resx">
+      <DependentUpon>MyCart.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyWishlist.resx">
+      <DependentUpon>MyWishlist.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProceedToCheckout.resx">
+      <DependentUpon>ProceedToCheckout.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Redeem_EndForm.resx">
+      <DependentUpon>Redeem_EndForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewards_200.resx">
+      <DependentUpon>Rewards_200.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewards_400.resx">
+      <DependentUpon>Rewards_400.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewards_600.resx">
+      <DependentUpon>Rewards_600.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewards_800.resx">
+      <DependentUpon>Rewards_800.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sundae_menu.resx">
+      <DependentUpon>sundae_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_menu.resx">
+      <DependentUpon>Update_menu.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
